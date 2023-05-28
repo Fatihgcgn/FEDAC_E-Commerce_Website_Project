@@ -1,0 +1,28 @@
+@model ProductListViewModel
+
+@{
+    //popular class etiketini eğer 2den fazla ürün(product) varsa kullansın diğer türlü kullanmasın.
+    var popularClass = Model.Products.Count>2?"popular":"";
+    var products=Model.Products;
+}
+
+@section Categories
+{
+    @await Component.InvokeAsync("Categories")
+}
+
+@if (products.Count == 0) //ürün yoksa
+{
+    @await Html.PartialAsync("_noproduct") @* ürün yoksa çağrılıyor*@
+}
+else
+{
+    <div class="row">                     
+        @foreach (var product in products)
+        {
+            <div class="col-md-4">
+                @await Html.PartialAsync("_product",product)   @* ürün varsa çağrılıyor, 2.parametre bilgisini modelden alıyor*@
+        </div>
+        }
+    </div>
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html> @* Layout tüm sayfalarda aynı olan şeyleri kodladığımız taslak*@
+<html lang="en"> @* Layout tanımını kullanmaması için Layout=null; tanımlanması gerekiyor sayfa için!!!*@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/style.css">
+    @RenderSection("Css",false)
+    <link rel="shortcut icon" href="/images/fedacicon.png" />
+    <title>FEDAC</title>
+    
+</head>
+
+<body>
+    @* kaldırıldı, gerek duyulmuyor.46-0.9 *@
+    @* @if(IsSectionDefined("MessageBox"))
+    {
+    @RenderSection("MessageBox") @*2. parametresini false vererek her sayfada olma zorundalığı kaldırılır.*@
+    @*}
+    else
+    {
+    <div class="alert alert-primary text-center m-0">
+    WELCOME!
+    </div>
+    } *@
+
+    @await Html.PartialAsync("_navbar")
+
+    @* @RenderSection("Header",false) *@
+    @* @await Html.PartialAsync("_header") , 2 türlüde çağırma işlemi gerçekleşebiliyor.*@
+
+
+    <main class="my-3">
+        <div class="container">
+
+            @if (TempData["message"] != null)
+            {
+                <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+            }
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer class="py-5 bg-dark text-white text-center">
+        Fedac E-Commerce | 2023
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    @RenderSection("Scripts",false)
+</body>
+
+</html>
