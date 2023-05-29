@@ -21,3 +21,18 @@ C:\Users\ceyda\Desktop\FEDAC1\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity
 C:\Users\ceyda\Desktop\FEDAC1\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ceyda\Desktop\FEDAC\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csproj.AssemblyReference.cache
 C:\Users\ceyda\Desktop\FEDAC\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.deps.json
+C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.dll
+C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.pdb
+C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.dll
+C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.pdb
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.deps.json
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.dll
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.pdb
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.dll
+C:\Users\fatih\Desktop\FEDAC bozdum\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.pdb
+C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csprojAssemblyReference.cache

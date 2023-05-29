@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ceyda\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj": {}
+    "C:\\Users\\fatih\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ceyda\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj": {
+    "C:\\Users\\fatih\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ceyda\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj",
         "projectName": "FEDAC.entity",
-        "projectPath": "C:\\Users\\ceyda\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj",
-        "packagesPath": "C:\\Users\\ceyda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ceyda\\Desktop\\FEDAC\\FEDAC.entity\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\Desktop\\FEDAC\\FEDAC.entity\\FEDAC.entity.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\Desktop\\FEDAC\\FEDAC.entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ceyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,7 +30,6 @@
         },
         "frameworks": {
           "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -41,15 +41,13 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     }

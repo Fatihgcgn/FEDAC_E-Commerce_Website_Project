@@ -57,7 +57,7 @@ namespace FEDAC.webui
 
                 //options.User.AllowedUserNameCharacters = "";
                 options.User.RequireUniqueEmail = true;
-                options.SignIn.RequireConfirmedEmail = true;
+                options.SignIn.RequireConfirmedEmail = false; //true olcak
                 options.SignIn.RequireConfirmedPhoneNumber = false;
             });
             //kullanıcının tarayıcısına bırakılan cookie.Tanıma işlemi için.
@@ -81,14 +81,18 @@ namespace FEDAC.webui
             //mvc yapisi icin ekledik, razor sayfalari icinde gerekli   
             services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>(); //daha sonra sql ,mysql,mssql kullanmak istersek tek bir yerden değiştireceğiz.
             services.AddScoped<IProductRepository, EfCoreProductRepository>();
+            services.AddScoped<ICartRepository, EfCoreCartRepository>();  //Cart kısmı için
+
 
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<ICartService, CartManager>();
+
 
             services.AddScoped<IEmailSender, SmtpEmailSender>(i =>
                  new SmtpEmailSender(
                     _configuration["EmailSender:Host"],
-                    _configuration.GetValue<int>("EmailSender:Post"),
+                    _configuration.GetValue<int>("EmailSender:Port"),
                     _configuration.GetValue<bool>("EmailSender:EnableSSL"),
                     _configuration["EmailSender:UserName"],
                     _configuration["EmailSender:Password"])
@@ -122,6 +126,11 @@ namespace FEDAC.webui
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "cart", 
+                    pattern: "cart",
+                    defaults: new {controller="Cart",action="Index"}
+                ); 
                 endpoints.MapControllerRoute(
                     name: "adminuseredit", 
                     pattern: "admin/user/{id?}",

@@ -46,7 +46,7 @@ namespace FEDAC.webui.Controllers
                 return NotFound();
             }
             return View(new ProductDetailModel{
-                product = product,
+                Product = product,
                 Categories = product.ProductCategories.Select(i=>i.Category).ToList()
 
             });

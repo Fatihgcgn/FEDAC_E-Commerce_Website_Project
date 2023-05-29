@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using FEDAC.business.Abstract;
 using FEDAC.webui.EmailServices;
 using FEDAC.webui.Extensions;
 using FEDAC.webui.Identity;
@@ -22,9 +23,11 @@ namespace FEDAC.webui.Controllers
         //cookie olaylarını yönetecek.
         private SignInManager<User> _signInManager;
         private IEmailSender _emailSender;
+        private ICartService _cartService;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender)
+        public AccountController(ICartService cartService,UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender)
         {
+            _cartService = cartService;
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
@@ -102,7 +105,7 @@ namespace FEDAC.webui.Controllers
                 });
 
                 //email
-                await _emailSender.SendEmailAsync(model.Email, "Hesabınızı onaylayınız.", $"Lütfen email hesabınızı onaylamak için linke <a href='https://localhost:5001{url}'>tıklayınız.</a>");
+                await _emailSender.SendEmailAsync(model.Email, "Hesabinizi onaylayiniz.", $"Lütfen email hesabinizi onaylamak için linke <a href='https://localhost:5001{url}'>tiklayiniz.</a>");
                 return RedirectToAction("Login", "Account");
             }
 
@@ -140,6 +143,9 @@ namespace FEDAC.webui.Controllers
                 var result = await _userManager.ConfirmEmailAsync(user, token);
                 if (result.Succeeded)
                 {
+                    //hesabın onaylanması durumunda sepet(cart islemi gerceklesmesi gerekir:kod gelicek: -Fatih)
+                    _cartService.InitializeCart(user.Id);
+
                     TempData.Put("message", new AlertMessage()
                     {
                         Title = "Hesabınız onaylandı.",
