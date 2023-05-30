@@ -16,6 +16,30 @@ namespace FEDAC.business.Concrete
             _cartRepository = cartRepository;
         }
 
+        public void AddToCart(string userId, int productId, int quantity)
+        {
+            var cart = GetCartByUserId(userId);
+
+            if(cart!=null)
+            {
+                var index = cart.Cart_items.FindIndex(i=>i.ProductId==productId);
+                if(index<0)
+                {
+                    cart.Cart_items.Add(new Cart_item(){
+                        ProductId = productId,
+                        Quantity = quantity,
+                        CartId = cart.Id
+                    });                    
+                }
+                else{
+                    cart.Cart_items[index].Quantity += quantity;
+                }
+
+                _cartRepository.Update(cart);
+
+            }
+        }
+
         public Cart GetCartByUserId(string userId)
         {
             return _cartRepository.GetByUserId(userId);

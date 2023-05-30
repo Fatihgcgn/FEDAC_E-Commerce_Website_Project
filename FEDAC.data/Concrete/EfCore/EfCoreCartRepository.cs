@@ -14,10 +14,19 @@ namespace FEDAC.data.Concrete.EfCore
         {
             using(var context=new ShopContext())
             {
-                return context.Carts.Include(i=>i.Cart_items).ThenInclude(i=>i.Product).FirstOrDefault(i=>i.UserId==userId);
-                                
-                                
-                                
+                return context.Carts
+                    .Include(i=>i.Cart_items)
+                    .ThenInclude(i=>i.Product)
+                    .FirstOrDefault(i=>i.UserId==userId);                               
+            }
+        }
+
+        public override void Update(Cart entity) //virtual ile overwrite edebiliyoruz.
+        {
+            using(var context = new ShopContext())
+            {                
+                context.Carts.Update(entity);
+                context.SaveChanges();
             }
         }
     }

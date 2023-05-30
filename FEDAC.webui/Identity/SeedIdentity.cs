@@ -3,7 +3,7 @@ using FEDAC.webui.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 
-namespace shopapp.webui.Identity
+namespace FEDAC.webui.Identity
 {
     public static class SeedIdentity
     {

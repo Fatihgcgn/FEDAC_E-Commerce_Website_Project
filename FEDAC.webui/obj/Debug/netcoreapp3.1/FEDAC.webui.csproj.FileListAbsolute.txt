@@ -594,7 +594,6 @@ C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\global.json
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\package-lock.json
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\package.json
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\FEDAC.webui.StaticWebAssets.xml
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\FEDAC.webui.exe
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\FEDAC.webui.deps.json
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\FEDAC.webui.runtimeconfig.json
@@ -653,8 +652,6 @@ C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\FEDAC.data.pdb
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\FEDAC.entity.pdb
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\FEDAC.business.pdb
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.csproj.AssemblyReference.cache
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.AssemblyInfoInputs.cache
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.AssemblyInfo.cs
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.csproj.CoreCompileInputs.cache
@@ -662,11 +659,6 @@ C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.RazorAssemblyInfo.cache
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.RazorAssemblyInfo.cs
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\FEDAC.webui.StaticWebAssets.Manifest.cache
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\FEDAC.webui.StaticWebAssets.Pack.cache
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.FEDAC.webui.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.FEDAC.webui.props
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.FEDAC.webui.props
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.FEDAC.webui.props
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.TagHelpers.input.cache
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.TagHelpers.output.cache
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.RazorCoreGenerate.cache
@@ -716,3 +708,7 @@ C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.dll
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.pdb
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.genruntimeconfig.cache
+C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.csprojAssemblyReference.cache
+C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\FEDAC.webui.StaticWebAssets.xml
+C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs

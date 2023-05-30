@@ -44,7 +44,7 @@ namespace FEDAC.data.Concrete.EfCore
             }
         }
 
-        public void Update(T_Entity entity)
+        public virtual void Update(T_Entity entity) //virtual ile overwrite edebiliyoruz.
         {
             using(var context = new T_Context())
             {
@@ -52,5 +52,7 @@ namespace FEDAC.data.Concrete.EfCore
                 context.SaveChanges();
             }
         }
+
+
     }
 }

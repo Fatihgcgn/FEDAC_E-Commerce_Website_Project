@@ -18,7 +18,6 @@ using FEDAC.webui.Identity;
 using Microsoft.AspNetCore.Identity;
 using FEDAC.webui.EmailServices;
 using Microsoft.Extensions.Configuration;
-using shopapp.webui.Identity;
 
 namespace FEDAC.webui
 {

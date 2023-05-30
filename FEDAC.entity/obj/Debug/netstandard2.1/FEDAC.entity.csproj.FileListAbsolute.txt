@@ -39,8 +39,7 @@ C:\Users\fatih\Desktop\FEDAC\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.deps.json
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.dll
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\bin\Debug\netstandard2.1\FEDAC.entity.pdb
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csproj.AssemblyReference.cache
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csproj.CoreCompileInputs.cache
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.dll
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.pdb
+C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.entity\obj\Debug\netstandard2.1\FEDAC.entity.csprojAssemblyReference.cache

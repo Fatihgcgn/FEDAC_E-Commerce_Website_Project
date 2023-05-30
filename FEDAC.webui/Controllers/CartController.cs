@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FEDAC.business.Abstract;
 using FEDAC.webui.Identity;
+using FEDAC.webui.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -23,16 +24,26 @@ namespace FEDAC.webui.Controllers
         public IActionResult Index()
         {
             var cart = _cartService.GetCartByUserId(_userManager.GetUserId(User));
-
-            
-            Console.WriteLine(cart);
-            return View();
+            return View(new CartModel(){
+                CartId = cart.Id,
+                Cart_items = cart.Cart_items.Select(i=>new CartItemModel()
+                {
+                    CartItemId=i.Id,
+                    ProductId = i.ProductId,
+                    Name = i.Product.Name,
+                    Price = (double)i.Product.Price,
+                    ImageUrl = i.Product.ImageUrl,
+                    Quantity = i.Quantity
+                }).ToList()
+            });
         }
 
         [HttpPost]
-        public IActionResult AddToCart()
+        public IActionResult AddToCart(int productId,int quantity)
         {
-            return View();
+            var userId = _userManager.GetUserId(User);
+            _cartService.AddToCart(userId,productId,quantity);
+            return RedirectToAction("Index");
         }
     }
 }
