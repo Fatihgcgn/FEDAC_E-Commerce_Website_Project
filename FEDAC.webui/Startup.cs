@@ -92,7 +92,7 @@ namespace FEDAC.webui
             services.AddScoped<IEmailSender, SmtpEmailSender>(i =>
                  new SmtpEmailSender(
                     _configuration["EmailSender:Host"],
-                    _configuration.GetValue<int>("EmailSender:Port"),
+                    _configuration.GetValue<int>("EmailSender:Post"),
                     _configuration.GetValue<bool>("EmailSender:EnableSSL"),
                     _configuration["EmailSender:UserName"],
                     _configuration["EmailSender:Password"])

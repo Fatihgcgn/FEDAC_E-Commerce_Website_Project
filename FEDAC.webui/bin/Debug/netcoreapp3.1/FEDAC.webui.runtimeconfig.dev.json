@@ -3,7 +3,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\fatih\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\fatih\\.nuget\\packages",
-      "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages"
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }
