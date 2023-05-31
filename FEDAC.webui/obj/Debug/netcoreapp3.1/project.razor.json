@@ -16283,6 +16283,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\FEDAC_E-Commerce_Website_Project\\FEDAC.webui\\Views\\Cart\\Success.cshtml",
+      "TargetPath": "Views\\Cart\\Success.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\FEDAC_E-Commerce_Website_Project\\FEDAC.webui\\Views\\Shared\\_noproduct.cshtml",
       "TargetPath": "Views\\Shared\\_noproduct.cshtml",
       "FileKind": "mvc"

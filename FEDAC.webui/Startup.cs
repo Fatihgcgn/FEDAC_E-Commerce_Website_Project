@@ -80,12 +80,15 @@ namespace FEDAC.webui
             //mvc yapisi icin ekledik, razor sayfalari icinde gerekli   
             services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>(); //daha sonra sql ,mysql,mssql kullanmak istersek tek bir yerden değiştireceğiz.
             services.AddScoped<IProductRepository, EfCoreProductRepository>();
-            services.AddScoped<ICartRepository, EfCoreCartRepository>();  //Cart kısmı için
+            services.AddScoped<ICartRepository, EfCoreCartRepository>();  //Cart kısmı için    -fatih
+            services.AddScoped<IOrderRepository, EfCoreOrderRepository>();  //Order kısmı için -fatih
+              
 
 
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<ICartService, CartManager>();
+            services.AddScoped<IOrderService, OrderManager>();
 
 
             services.AddScoped<IEmailSender, SmtpEmailSender>(i =>
