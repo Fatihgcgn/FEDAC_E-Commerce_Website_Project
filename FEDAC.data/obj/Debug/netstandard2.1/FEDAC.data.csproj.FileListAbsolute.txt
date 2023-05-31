@@ -60,5 +60,4 @@ C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.data\obj\
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.data\obj\Debug\netstandard2.1\FEDAC.data.csproj.CopyComplete
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.data\obj\Debug\netstandard2.1\FEDAC.data.dll
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.data\obj\Debug\netstandard2.1\FEDAC.data.pdb
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.data\obj\Debug\netstandard2.1\FEDAC.data.csproj.AssemblyReference.cache
-C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.data\obj\Debug\netstandard2.1\FEDAC.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.data\obj\Debug\netstandard2.1\FEDAC.data.csprojAssemblyReference.cache
