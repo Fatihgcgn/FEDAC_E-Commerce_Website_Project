@@ -113,7 +113,7 @@ namespace FEDAC.webui.Controllers
                 if(payment.Status=="success")
                 {
                     SaveOrder(model,payment,userId);
-                    ClearCart(userId);
+                    ClearCart(model.CartModel.CartId);
                     return View("Success");
                 }
                 else
@@ -131,9 +131,9 @@ namespace FEDAC.webui.Controllers
             
         }
 
-        private void ClearCart(string userId)
+        private void ClearCart(int cartId)
         {
-            
+            _cartService.ClearCart(cartId);
         }
 
         private void SaveOrder(OrderModel model, Payment payment, string userId)
