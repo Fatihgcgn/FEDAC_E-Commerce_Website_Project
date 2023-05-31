@@ -14,6 +14,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
+            // paymentCard.CardNumber = "5528790000000008";
+            // paymentCard.ExpireMonth = "12";
+            // paymentCard.ExpireYear = "2030";
+            // paymentCard.Cvc = "123";
+
 namespace FEDAC.webui.Controllers
 {
     [Authorize]
@@ -131,6 +136,42 @@ namespace FEDAC.webui.Controllers
             
         }
 
+        public IActionResult GetOrders()
+        {
+            var userId = _userManager.GetUserId(User);
+            var orders = _orderService.GetOrders(userId);
+
+            var orderListModel = new List<OrderListModel>();
+            OrderListModel orderModel;
+            foreach (var order in orders)
+            {
+                orderModel = new OrderListModel();
+
+                orderModel.OrderId = order.Id;
+                orderModel.OrderNumber = order.OrderNumber;
+                orderModel.OrderDate = order.OrderDate;
+                orderModel.Phone = order.Phone;
+                orderModel.FirstName = order.FirstName;
+                orderModel.LastName = order.LastName;
+                orderModel.Email = order.Email;
+                orderModel.Address = order.Address;
+                orderModel.City = order.City;
+                orderModel.OrderState=order.OrderState;
+                orderModel.PaymentType=order.PaymentType;
+
+                orderModel.OrderItems = order.OrderItems.Select(i=>new OrderItemModel(){
+                        OrderItemId=i.Id,
+                        Name = i.Product.Name,
+                        Price = (double)i.Price,   //order item tablosundan çekiyoruz çünkü sipariş verildikten sonra fiyat değişiminde sitedeki günceli değil sepetteki üründen fiyatı çeksin.
+                        Quantity = i.Quantity,
+                        ImageUrl = i.Product.ImageUrl
+                }).ToList();
+
+                orderListModel.Add(orderModel);
+            }
+
+            return View("Orders",orderListModel);
+        }
         private void ClearCart(int cartId)
         {
             _cartService.ClearCart(cartId);

@@ -715,3 +715,4 @@ C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\FEDAC.webui.csprojAssemblyReference.cache
 C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\staticwebassets\FEDAC.webui.StaticWebAssets.xml
+C:\Users\fatih\Documents\GitHub\FEDAC_E-Commerce_Website_Project\FEDAC.webui\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Orders.cshtml.g.cs
