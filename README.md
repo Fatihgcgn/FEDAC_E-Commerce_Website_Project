@@ -3,3 +3,5 @@ My E-commerce website project, Back-end work using Asp.Net MVC architecture(EN-O
 
 Bilgisayar mühendisliği son sınıf bitirme projesi olarak Asp.Net mimarisini öğrenerek aynı zamanda üstünde çalışmaya başladığım E-Ticaret Websitesi projesidir.
 Proje devam etmekte...
+
+Proje şahsım adına değildir, proje ortağım Eda Şengül ile birlikte yürütülmüştür. Backend işlemlerini kendim Identity,Api ve Frontend kısmı Eda Şengül tarafından yapılmıştır.
